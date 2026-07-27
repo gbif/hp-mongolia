@@ -91,41 +91,35 @@ var siteConfig = {
   "messages": {},
   "occurrenceSearch": {
     "scope": {
-      "type": "in",
-      "key": "publishingOrg",
-      "values": [
-        "760d5f24-4c04-40da-9646-1b2c935da502",
-        "2e7df380-8356-4533-bcb3-5459e23c794e",
-        "8e1a97a0-3ca8-11d9-8439-b8a03c50a862"
-      ]
+      "type": "equals",
+      "key": "country",
+      "value": "MN"
     },
     "highlightedFilters": [
+      "q",
       "taxonKey",
-      "verbatimScientificName",
-      "institutionKey",
-      "collectionKey",
-      "catalogNumber",
-      "recordedBy",
-      "identifiedBy"
+      "gadmGid", // administrative areas, i.e. the aimags
+      "year",
+      "basisOfRecord",
+      "publishingOrg",
+      "mediaType"
     ],
     "excludedFilters": [
+      "country", // fixed by our scope, so filtering on it can only return the same or nothing
+      "continent",
+      "publishingCountry",
       "occurrenceStatus",
       "networkKey",
       "hostingOrganizationKey",
-      "protocol",
-      "publishingCountry",
-      "institutionCode",
-      "collectionCode"
+      "protocol"
     ],
     "defaultEnabledTableColumns": [
       "features",
-      "institutionKey",
-      "collectionKey",
-      "catalogNumber",
-      "country",
       "year",
+      "basisOfRecord",
+      "stateProvince",
       "recordedBy",
-      "identifiedBy"
+      "datasetKey"
     ],
     "tabs": [
       "table",
@@ -136,9 +130,9 @@ var siteConfig = {
       "download"
     ],
     "mapSettings": {
-      "lat": 52,
-      "lng": 12,
-      "zoom": 4.911544076366507
+      "lat": 46.9,
+      "lng": 103.8,
+      "zoom": 4
     }
   },
   "collectionSearch": {
@@ -146,42 +140,60 @@ var siteConfig = {
     // highlightedFilters: ['q', 'type', 'publishingOrg', 'license'],
     // defaultTableColumns: ['title', 'description', 'publisher', 'type', 'occurrenceCount', 'literatureCount'],
     scope: {
-      // TODO: you should add a scope here if you need search to be limited to a subset
-      // search filters have the format {field: [values]}
+      // Collections held by institutions in Mongolia (15 today)
+      country: 'MN',
       active: true
     },
   },
   "institutionSearch": {
-    // excludedFilters: ['country', 'active'],
+    excludedFilters: ['country', 'active'],
     // highlightedFilters: ['q', 'type'],
     // defaultTableColumns: ['title', 'type'],
     scope: {
-      // TODO: you should add a scope here if you need search to be limited to a subset
-      // search filters have the format {field: [values]}
+      // Institutions registered in Mongolia (12 today)
+      country: 'MN',
       active: true
     }
   },
   "datasetSearch": {
-    excludedFilters: ['publishingCountry', 'networkKey', 'projectId', 'hostingOrg'],
+    excludedFilters: ['networkKey', 'projectId', 'hostingOrg'],
     highlightedFilters: ['q', 'type', 'publishingOrg', 'license'],
     scope: {
-      // TODO: you should add a scope here if you need search to be limited to a subset
-      // search filters have the format {field: [values]}
-      type: ['OCCURRENCE', 'CHECKLIST']
+      // Datasets published FROM Mongolia. Note this is only 1 dataset today - dataset search can
+      // only be scoped by publisher, there is no country-of-coverage filter, so the ~835 datasets
+      // holding Mongolian records cannot be listed here. They are reachable through the datasetKey
+      // filter on occurrence search instead.
+      publishingCountry: 'MN'
     },
   },
   "publisherSearch": {},
   "literatureSearch": {
     "scope": {
-      // TODO: you should add a scope here if you need search to be limited to a subset
-      // literature search use the predicate format similar to occurrence search
-      "type": "in",
-      "key": "publishingOrganizationKey",
-      "values": [
-        "760d5f24-4c04-40da-9646-1b2c935da502",
-        "2e7df380-8356-4533-bcb3-5459e23c794e",
-        "8e1a97a0-3ca8-11d9-8439-b8a03c50a862"
+      // Literature either about Mongolia or by researchers based in Mongolia.
+      // Literature search uses the predicate format, similar to occurrence search.
+      "type": "or",
+      "predicates": [
+        {
+          "type": "in",
+          "key": "countriesOfCoverage",
+          "values": [
+            "MN"
+          ]
+        },
+        {
+          "type": "in",
+          "key": "countriesOfResearcher",
+          "values": [
+            "MN"
+          ]
+        }
       ]
-    }
+    },
+    "highlightedFilters": [
+      "q",
+      "countriesOfCoverage",
+      "countriesOfResearcher",
+      "year"
+    ]
   }
 }
