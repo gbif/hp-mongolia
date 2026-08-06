@@ -1,7 +1,7 @@
 ---
 lang-ref: home
 layout: home
-title: My headline
+title: GBIF Mongolia
 description: Lorem markdownum spatium limes indefessus neque *at* orat aestuat
 background: /assets/images/placeholders/templates/w1600h800.png
 imageLicense: None for this image
