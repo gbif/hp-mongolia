@@ -1,0 +1,20 @@
+# The home landing page
+stats:
+  features:
+    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?country=MN">800000</span>
+      description: Occurrences
+      background: /assets/img/icons/validity.png
+      href: /occurrence/search
+    - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishingCountry=MN">2</span>
+      description: Datasets
+      background: /assets/img/icons/cloud-computing.png
+      href: /dataset/search
+    - title: <span data-ajax-url="https://api.gbif.org/v1/organization?country=MN">3</span>
+      description: Publishers
+      background: /assets/img/icons/visualization.png
+      href: https://www.gbif.org/publisher/search?country=MN
+
+
+latestPosts: 
+  title: "Our latest posts"
+  description: "Change the description in `_data/home.yml`"
