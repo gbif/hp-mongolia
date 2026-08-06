@@ -169,7 +169,7 @@ var siteConfig = {
   "publisherSearch": {},
   "literatureSearch": {
     "scope": {
-      // Literature either about Mongolia or by researchers based in Mongolia.
+      // Literature about Mongolia.
       // Literature search uses the predicate format, similar to occurrence search.
       "type": "or",
       "predicates": [
@@ -180,13 +180,6 @@ var siteConfig = {
             "MN"
           ]
         },
-        {
-          "type": "in",
-          "key": "countriesOfResearcher",
-          "values": [
-            "MN"
-          ]
-        }
       ]
     },
     "highlightedFilters": [
