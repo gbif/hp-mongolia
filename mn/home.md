@@ -3,8 +3,8 @@ lang-ref: home
 layout: home
 title: GBIF Монгол
 description: Монгол улсын биологийн олон янз байдлын өгөгдөл, зүйлийн тархалтын тохиолдол болон өгөгдлийн багцуудыг нээж илрүүлэх, хуваалцах
-background: /assets/images/4410688507_a68a2c8ed2_b.jpg
-imageLicense: Copyright by the creator. For license and creator details, see https://nabu-naturgucker-beobachtungen.de/?sprache=en&bild=-1811949731.
+background: /assets/images/R.jpg
+imageLicense: Copyright by the creator. For license and creator details, see https://wallpapersafari.com/w/CqIVs8
 height: 70vh
 cta:
   - text: Тохиолдол
