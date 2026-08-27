@@ -3,8 +3,8 @@ lang-ref: home
 layout: home
 title: GBIF Монгол
 description: Монгол улсын биологийн олон янз байдлын өгөгдөл, зүйлийн тархалтын тохиолдол болон өгөгдлийн багцуудыг нээж илрүүлэх, хуваалцах
-background: /assets/images/R.jpg
-imageLicense: Copyright by the creator. For license and creator details, see https://wallpapersafari.com/w/CqIVs8
+background: /assets/images/viber_image_2026-08-11_13-27-10-710.jpg
+imageLicense: Copyright by Tuvshintugs Sukhbaatar, Institute of Biology, Mongolian Academy of Sciences.
 height: 70vh
 cta:
   - text: Тохиолдол
