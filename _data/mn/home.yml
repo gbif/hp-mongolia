@@ -2,16 +2,16 @@
 stats:
   features:
     - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?country=MN">800000</span>
-      description: Occurrences (mongolian)
-      background: /assets/img/icons/validity.png
-      href: /mn/occurrence/search
+      description: Тохиолдол
+      background: /assets/images/Occur_f-removebg-preview.png
+      href: /occurrence/search
     - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishingCountry=MN">2</span>
-      description: Datasets
-      background: /assets/img/icons/cloud-computing.png
-      href: /mn/dataset/search
+      description: Өгөгдлийн багц
+      background: /assets/images/dat_f-removebg-preview.png
+      href: https://www.gbif.org/dataset/search
     - title: <span data-ajax-url="https://api.gbif.org/v1/organization?country=MN">3</span>
-      description: Publishers
-      background: /assets/img/icons/visualization.png
+      description: Нийтлэгч
+      background: /assets/images/pub_f-removebg-preview.png
       href: https://www.gbif.org/publisher/search?country=MN
 
 
