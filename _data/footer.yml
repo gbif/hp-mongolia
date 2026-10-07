@@ -5,16 +5,14 @@
 
 # Columns (the more you add, the narrower they will be)
 columns:
-  - name: Column example
-    description: | # Can be Markdown and multiline as shown here. 
-      This is an example column. You can add as many as you want.
-      Each column can have a name, an optional description and optional links.
-      You can also enable social icons for a column (e.g. for a "Contact" column).
+  - name: Useful information
     links:
-    - text: Name of project partner 1
-      href: http://example.com
-    - text: Name of project partner 2
-      href: http://example.com
+    - text: About GBIF Mongolia
+      href: https://www.gbif.org/news/6ogXsBZkYdu7xZNjg9mCOR/mongolia-expands-gbif-asia-network-by-becoming-an-associate-participant
+    - text: About GBIF
+      href: https://www.gbif.org/what-is-gbif
+    - text: Institute of Biology, MAS
+      href: https://biology.ac.mn/
 
   - name: GBIF Mongolia 
     description: | # Can be Markdown
