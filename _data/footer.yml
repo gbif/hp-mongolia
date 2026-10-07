@@ -7,14 +7,14 @@
 columns:
   - name: Useful information
     links:
-    - text: About GBIF Mongolia
-      href: https://www.gbif.org/country/MN/summary
-    - text: About GBIF
-      href: https://www.gbif.org/what-is-gbif
-    - text: Institute of Biology, MAS
-      href: https://biology.ac.mn/
+      - text: About GBIF Mongolia
+        href: https://www.gbif.org/country/MN/summary
+      - text: About GBIF
+        href: https://www.gbif.org/what-is-gbif
+      - text: Institute of Biology, MAS
+        href: https://biology.ac.mn/
 
- - name: Publish biodiversity data
+  - name: Publish biodiversity data
     links:
       - text: Become a GBIF Publisher
         href: https://www.gbif.org/publishing-data
@@ -26,7 +26,7 @@ columns:
         href: https://www.gbif.org/terms/data-use
 
   - name: GBIF Mongolia
-    description: | # Can be Markdown
+    description: |
       **Head of Delegations:**  
       Gantulga Davaakhuu, Ph.D.  
       Director of the Institute of Biology  
@@ -38,9 +38,8 @@ columns:
       Institute of Biology, MAS  
       Email: emujinz@mas.ac.mn
 
-  
   - name: Contact
-    description: | # Can be Markdown
+    description: |
       **Institute of Biology**  
       Mongolian Academy of Sciences  
       Integrated Complex of the Academy of Sciences  
