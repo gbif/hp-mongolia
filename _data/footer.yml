@@ -22,8 +22,9 @@ columns:
   
   - name: Contact
     description: | # Can be Markdown
-      Social icons links defined in `_config.yml`
-      * Institute of Biology, Mongolian Academy of Sciences
+      * Node Manager: emujinz@mas.ac.mn
+      
+      * Institute of Biology, MAS
       * Integrated Complex of the Academy of Sciences, Bayanzurkh District, 12th Khoroo
       * Police Academy Avenue, Ulaanbaatar 13260, Mongolia
     connectIcons: true # Show social icons (defined in _config.yml)
