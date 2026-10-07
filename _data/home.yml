@@ -3,15 +3,15 @@ stats:
   features:
     - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?country=MN">800000</span>
       description: Occurrences
-      background: /assets/img/icons/validity.png
+      background: /assets/images/Occur_f-removebg-preview.png
       href: /occurrence/search
     - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishingCountry=MN">2</span>
       description: Datasets
-      background: /assets/img/icons/cloud-computing.png
+      background: /assets/images/dat_f-removebg-preview.png
       href: https://www.gbif.org/dataset/search
     - title: <span data-ajax-url="https://api.gbif.org/v1/organization?country=MN">3</span>
       description: Publishers
-      background: /assets/img/icons/visualization.png
+      background: /assets/images/pub_f-removebg-preview.png
       href: https://www.gbif.org/publisher/search?country=MN
 
 
