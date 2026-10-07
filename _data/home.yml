@@ -8,7 +8,7 @@ stats:
     - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishingCountry=MN">2</span>
       description: Datasets
       background: /assets/img/icons/cloud-computing.png
-      href: /dataset/search
+      href: https://www.gbif.org/dataset/search
     - title: <span data-ajax-url="https://api.gbif.org/v1/organization?country=MN">3</span>
       description: Publishers
       background: /assets/img/icons/visualization.png
