@@ -16,14 +16,21 @@ columns:
     - text: Name of project partner 2
       href: http://example.com
 
-  - name: Code
+  - name: GBIF Mongolia 
     description: | # Can be Markdown
-      See `_data/footer.yml` to customize the footer.
+    Head of Delegations: 
+    Gantulga Davaakhuu, Ph.D
+    Director of the Institute of Biology
+    Email: gantulgad@mas.ac.mn
+
+    Node Manager: 
+    Emujin Zolboo, M.Sc
+    Researcher of Applied Biotechnology Center of the Institute of Biology
+    Email: emujinz@mas.ac.mn
+
   
   - name: Contact
     description: | # Can be Markdown
-      * Node Manager: emujinz@mas.ac.mn
-      
       * Institute of Biology
       * Mongolian Academy of Sciences
       * Ulaanbaatar 13260, Mongolia
