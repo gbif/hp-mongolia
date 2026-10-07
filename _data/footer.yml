@@ -23,9 +23,9 @@ columns:
   - name: Contact
     description: | # Can be Markdown
       Social icons links defined in `_config.yml`
-      * Street name
-      * 1234 postal code
-      * Country
+      * Institute of Biology, Mongolian Academy of Sciences
+      * Integrated Complex of the Academy of Sciences, Bayanzurkh District, 12th Khoroo
+      * Police Academy Avenue, Ulaanbaatar 13260, Mongolia
     connectIcons: true # Show social icons (defined in _config.yml)
 
 
