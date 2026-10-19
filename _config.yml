@@ -22,9 +22,7 @@
 title: GBIF Mongolia # the title of your site should go here
 email: biology@mas.ac.mn
 description: >- # this means to ignore newlines (until baseurl:)
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  GBIF Mongolia is the national node hosted by the Institute of Biology of the Global Biodiversity Information Facility, supporting the mobilization, publication, and use of biodiversity data in Mongolia and connecting Mongolian research and data with the global scientific community.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mongolia.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
 
