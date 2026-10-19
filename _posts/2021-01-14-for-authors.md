@@ -1,10 +1,37 @@
 ---
-title:  "Getting started for authors"
-date:   2021-01-14 15:20:00 +0100
-categories: ["Getting started", "Jekyll"]
-lang-ref: for authors
-background: /assets/images/placeholders/templates/w600h400.png
+title:  "Mongolia Selected to Host the 34th GBIF Governing Board Meeting in 2027"
+date:   2026-10-19 15:00:00 +0800
+categories: ["News"]
+lang-ref: mongolia-selected-to-host-gb34
+background: /assets/images/viber_image_2026-08-11_15-04-07-066.jpg
 ---
-You’ll find this post in your `_posts` directory.
 
-Read more in the "[Getting started guide for authors](https://github.com/gbif/hosted-portals/blob/main/getting-started/for-authors.md)" to get started with your new website.
+Mongolia has been selected to host the **34th Global Biodiversity Information Facility (GBIF) Governing Board Meeting (GB34)** in 2027.
+
+This marks an important milestone for **GBIF Mongolia** and the **Institute of Biology of the Mongolian Academy of Sciences**, and highlights Mongolia’s growing engagement with the global biodiversity information community.
+
+### Mongolia to Host GB34
+
+The **GBIF Governing Board** brings together representatives of GBIF Participants from around the world to guide the strategic development of the GBIF network.
+
+Hosting GB34 in Mongolia will provide an opportunity to welcome members of the international GBIF community and strengthen connections between Mongolian researchers, institutions, and biodiversity data experts.
+
+It will also provide an opportunity to showcase Mongolia’s rich biodiversity, scientific expertise, and ongoing efforts to make biodiversity information more accessible and useful for research and decision-making.
+
+### Strengthening Biodiversity Data in Mongolia
+
+GBIF Mongolia, hosted by the **Institute of Biology of the Mongolian Academy of Sciences**, works to support the mobilization, publication, and use of biodiversity data from Mongolia through the global GBIF network.
+
+Mongolia is home to diverse ecosystems and a remarkable range of species. Making reliable biodiversity information openly accessible is increasingly important for scientific research, conservation, environmental management, and evidence-based decision-making.
+
+The hosting of GB34 will further strengthen Mongolia’s role within the GBIF network and create opportunities for international knowledge exchange and collaboration.
+
+### Looking Ahead
+
+The selection of Mongolia as the host of GB34 represents an exciting opportunity for **GBIF Mongolia** to connect the national scientific community with the wider global biodiversity information network.
+
+GBIF Mongolia and the Institute of Biology of the Mongolian Academy of Sciences look forward to welcoming the GBIF community to Mongolia in 2027.
+
+Further information about GB34 will be shared as preparations progress.
+
+**GBIF Mongolia — Connecting Mongolia’s biodiversity data with the world.**
