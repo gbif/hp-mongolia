@@ -7,10 +7,10 @@
 columns:
   - name: Useful information
     links:
+      - text: What is GBIF?
+        href: https://www.gbif.org/what-is-gbif
       - text: About GBIF Mongolia
         href: https://www.gbif.org/country/MN/summary
-      - text: About GBIF
-        href: https://www.gbif.org/what-is-gbif
       - text: Institute of Biology, MAS
         href: https://biology.ac.mn/
 
