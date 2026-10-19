@@ -1,0 +1,57 @@
+# Footer configuration
+# Монгол хэл дээрх хөл хэсгийн тохиргоо
+
+columns:
+  - name: Хэрэгтэй мэдээлэл
+    links:
+      - text: GBIF Монголын тухай
+        href: https://www.gbif.org/country/MN/summary
+      - text: GBIF-ийн тухай
+        href: https://www.gbif.org/what-is-gbif
+      - text: ШУА-ийн Биологийн хүрээлэн
+        href: https://biology.ac.mn/
+
+  - name: Биологийн олон янз байдлын мэдээлэл нийтлэх
+    links:
+      - text: GBIF-ийн мэдээлэл нийлүүлэгч болох
+        href: https://www.gbif.org/publishing-data
+      - text: Монголын IPT
+        href: https://ipt.gbif.mn/
+      - text: GBIF-ийн мэдээлэл
+        href: https://www.gbif.org/occurrence/search
+      - text: GBIF-ийн мэдээлэл ашиглах
+        href: https://www.gbif.org/terms/data-use
+
+  - name: GBIF Монгол
+    description: |
+      **Төлөөлөгчдийн тэргүүн:**  
+      Гантулга Даваахүү, Ph.D.  
+      Биологийн хүрээлэнгийн захирал  
+      И-мэйл: gantulga@mas.ac.mn
+
+      **Үндэсний зангилааны менежер:**  
+      Эмүжин Золбоо, M.Sc.  
+      Хэрэглээний биотехнологийн төвийн эрдэм шинжилгээний ажилтан  
+      Биологийн хүрээлэн, ШУА  
+      И-мэйл: emujinz@mas.ac.mn
+
+  - name: Холбоо барих
+    description: |
+      **Биологийн хүрээлэн**  
+      Монгол Улсын Шинжлэх ухааны академи  
+      Шинжлэх ухааны академийн Нэгдсэн цогцолбор  
+      Баянзүрх дүүрэг, 12 дугаар хороо  
+      Цагдаагийн академийн гудамж  
+      Улаанбаатар 13260, Монгол Улс  
+
+      **Утас:** +976 11 451781  
+      **И-мэйл:** biology@mas.ac.mn  
+      **Вэбсайт:** [biology.ac.mn](https://biology.ac.mn/)
+    connectIcons: true
+
+
+# Хөл хэсэгт харагдах лицензийн мэдээлэл
+# Доорх хэсгийг идэвхжүүлснээр хөл хэсгийн хамгийн доод хэсэгт лицензийн мэдээлэл гарна.
+
+#license: >
+#  Энэ вебсайтын агуулга нь [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/) лицензийн дагуу ашиглагдана.
