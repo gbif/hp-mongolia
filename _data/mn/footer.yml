@@ -4,22 +4,22 @@
 columns:
   - name: Хэрэгтэй мэдээлэл
     links:
+      - text: GBIF гэж юу вэ?
+        href: https://www.gbif.org/what-is-gbif
       - text: GBIF Монголын тухай
         href: https://www.gbif.org/country/MN/summary
-      - text: GBIF-ийн тухай
-        href: https://www.gbif.org/what-is-gbif
       - text: ШУА-ийн Биологийн хүрээлэн
         href: https://biology.ac.mn/
 
   - name: Мэдээлэл нийтлэх
     links:
-      - text: GBIF-ийн мэдээлэл нийлүүлэгч болох
+      - text: GBIF-ийн мэдээлэл нийтлэгч болох
         href: https://www.gbif.org/publishing-data
       - text: Монголын IPT
         href: https://ipt.gbif.mn/
-      - text: GBIF-ийн мэдээлэл
+      - text: GBIF-ийн мэдээллийн сан
         href: https://www.gbif.org/occurrence/search
-      - text: GBIF-ийн мэдээлэл ашиглах
+      - text: GBIF-ийн мэдээллийг ашиглах
         href: https://www.gbif.org/terms/data-use
 
   - name: GBIF Монгол
