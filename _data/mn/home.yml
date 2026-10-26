@@ -10,7 +10,7 @@ stats:
       background: /assets/images/dat_f-removebg-preview.png
       href: /dataset/search
     - title: <span data-ajax-url="https://api.gbif.org/v1/organization?country=MN">3</span>
-      description: Нийтлэгч
+      description: Нийтлэгчид
       background: /assets/images/pub_f-removebg-preview.png
       href: https://www.gbif.org/publisher/search?country=MN
 
