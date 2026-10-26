@@ -8,7 +8,7 @@ stats:
     - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishingCountry=MN">2</span>
       description: Өгөгдлийн багц
       background: /assets/images/dat_f-removebg-preview.png
-      href: https://www.gbif.org/dataset/search
+      href: /dataset/search
     - title: <span data-ajax-url="https://api.gbif.org/v1/organization?country=MN">3</span>
       description: Нийтлэгч
       background: /assets/images/pub_f-removebg-preview.png
