@@ -2,7 +2,7 @@
 lang-ref: home
 layout: home
 title: GBIF Mongolia
-description: Discover and share biodiversity data, species occurrence records, and datasets for Mongolia
+description: Discover, access, and share Mongolia’s biodiversity data and species occurrence records
 background: assets/images/viber_image_2026-08-11_13-27-10-710.jpg
 imageLicense: Copyright by Tuvshintugs Sukhbaatar, Institute of Biology, Mongolian Academy of Sciences.
 height: 70vh
