@@ -1,15 +1,15 @@
 # Navigation configuration
 # Links listed below will be included in your site's navbar (navigation at the top)
 
-- text: Data
+- text: Өгөгдөл
   menu: 
-  - text: Occurrences
+  - text: Тохиолдол
     href: /mn/occurrence/search
-  - text: Datasets
+  - text: Өгөгдлийн сан
     href: /mn/dataset/search
-  - text: Collections
+  - text: Цуглуулга
     href: /mn/collection/search
-  - text: Literature
+  - text: Ном зүй
     href: /mn/literature/search
-- text: News
+- text: Мэдээ
   href: /mn/news/
