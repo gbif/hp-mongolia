@@ -3,7 +3,7 @@
 
 - text: Өгөгдөл
   menu: 
-  - text: Тохиолдол
+  - text: Тохиолдлын бүртгэл
     href: /mn/occurrence/search
   - text: Өгөгдлийн сан
     href: /mn/dataset/search
