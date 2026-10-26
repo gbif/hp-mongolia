@@ -11,15 +11,15 @@ columns:
       - text: ШУА-ийн Биологийн хүрээлэн
         href: https://biology.ac.mn/
 
-  - name: Мэдээлэл нийтлэх
+  - name: Өгөгдөл нийтлэх
     links:
-      - text: GBIF-ийн мэдээлэл нийтлэгч болох
+      - text: GBIF-ийн өгөгдөл нийтлэгч болох
         href: https://www.gbif.org/publishing-data
       - text: Монголын IPT
         href: https://ipt.gbif.mn/
-      - text: GBIF-ийн мэдээллийн сан
+      - text: GBIF-ийн өгөгдлийн сан
         href: https://www.gbif.org/occurrence/search
-      - text: GBIF-ийн мэдээллийг ашиглах
+      - text: GBIF-ийн өгөгдлийг ашиглах
         href: https://www.gbif.org/terms/data-use
 
   - name: GBIF Монгол
