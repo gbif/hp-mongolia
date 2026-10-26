@@ -2,7 +2,7 @@
 stats:
   features:
     - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?country=MN">800000</span>
-      description: Тохиолдол
+      description: Тохиолдлын бүртгэл
       background: /assets/images/Occur_f-removebg-preview.png
       href: /occurrence/search
     - title: <span data-ajax-url="https://api.gbif.org/v1/dataset/search?publishingCountry=MN">2</span>
